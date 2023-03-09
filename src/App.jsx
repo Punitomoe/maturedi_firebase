@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Kalkulator from "./pages/Kalkulator";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path="/dashboard" element={<Dashboard />}/>
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
+      <Route path="/kalkulator" element={<Kalkulator />}/>
       <Route path="/content" element={<h1>Content Page</h1>}/>
     </Routes>
   );
