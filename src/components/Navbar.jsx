@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='bg-[#252529] flex justify-between items-center h-[50px] sm:h-[70px]  max-w-[1240px] mx-auto px-4 text-white font-semibold rounded-full'>
+    <div className='bg-[#252529] flex justify-between items-center h-[50px] sm:h-[70px] max-w-[1240px] mx-auto px-4 text-white font-semibold rounded-full'>
       <img src={logo} className='w-auto h-[32px] ml-[20px] -mt-[5px] cursor-pointer' />
       <ul className='hidden md:flex cursor-pointer'>
         <li className='p-4'>Beranda</li>
