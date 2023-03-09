@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Contoh from "./components/Contoh";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -20,7 +19,6 @@ export default function App() {
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
       <Route path="/kalkulator" element={<Kalkulator />}/>
-      <Route path="/contoh" element={<Contoh />}/>
     </Routes>
   );
 }

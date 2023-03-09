@@ -8,10 +8,6 @@ import avatar from "../assets/Icon/avatar.png";
 import store from "../assets/Icon/store.png";
 import motorbike from "../assets/Icon/motorbike.png";
 
-function handleClick(event) {
-  event.preventDefault();
-}
-
 function Kalkulator() {
   const [penghasilan, setPenghasilan] = useState(0);
   const [bonus, setBonus] = useState(0);
@@ -30,6 +26,15 @@ function Kalkulator() {
       case "TK/0":
         setTanggungan(0);
         break;
+      case "TK/1":
+        setTanggungan(4500000);
+        break;
+      case "TK/2":
+        setTanggungan(9000000);
+        break;
+      case "TK/3":
+        setTanggungan(13500000);
+        break;
       case "K/0":
         setTanggungan(4500000);
         break;
@@ -42,6 +47,18 @@ function Kalkulator() {
       case "K/3":
         setTanggungan(18000000);
         break;
+      case "K/I/0":
+        setTanggungan(54000000);
+        break;
+      case "K/I/1":
+        setTanggungan(58500000);
+        break;
+      case "K/I/2":
+        setTanggungan(58500000);
+        break;
+      case "K/I/3":
+        setTanggungan(67500000);
+        break;
       default:
         setTanggungan(0);
         break;
@@ -49,48 +66,54 @@ function Kalkulator() {
   };
 
   const hitungHasil = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
     let gajiBersih = parseInt(penghasilan) + parseInt(bonus);
     let tanggunganAkhir = parseInt(tanggungan) + 54000000;
     let total = gajiBersih - tanggunganAkhir;
-    if (gajiBersih < 50000000) {
+
+    if (gajiBersih < 60000000) {
       setHasil(0);
     } else {
       console.log(gajiBersih);
+      console.log(tanggunganAkhir);
+      console.log(tanggungan);
+      console.log(total);
 
-      if (total <= 50000000) {
+      if (total <= 60000000) {
         setHasil(addCommas(removeNonNumeric(total * 0.05)));
-      } else if (total <= 300000000) {
+      } else if (total <= 310000000) {
         setHasil(
-          addCommas(removeNonNumeric((total - 50000000) * 0.15 + 2500000))
+          addCommas(removeNonNumeric((total - 60000000) * 0.15 + 3000000))
         );
-      } else if (total <= 750000000) {
+      } else if (total <= 810000000) {
         setHasil(
           addCommas(
-            removeNonNumeric((total - 300000000) * 0.25 + 25000000 + 37500000)
+            removeNonNumeric((total - 310000000) * 0.25 + 3000000 + 37500000)
           )
         );
       } else {
         setHasil(
           addCommas(
             removeNonNumeric(
-              (total - 750000000) * 0.3 + 25000000 + 37500000 + 125000000
+              (total - 810000000) * 0.3 + 3000000 + 37500000 + 125000000
             )
           )
         );
       }
     }
-    // console.log(gajiBersih);
-    // console.log(setHasil);
+    if (total <= 0) {
+      setHasil(0);
+    }
   };
 
   const handleOmzet = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
 
     if (omzetValue < 4800000000) {
       setOmzetResult(addCommas(removeNonNumeric(omzetValue * 0.005)));
     }
   };
+  
 
   return (
     <div>
@@ -147,6 +170,15 @@ function Kalkulator() {
                 <option data-testid="select-option" value="TK/0">
                   TK/0
                 </option>
+                <option data-testid="select-option" value="TK/1">
+                  TK/1
+                </option>
+                <option data-testid="select-option" value="TK/2">
+                  TK/2
+                </option>
+                <option data-testid="select-option" value="TK/3">
+                  TK/3
+                </option>
                 <option data-testid="select-option" value="K/0">
                   K/0
                 </option>
@@ -158,6 +190,18 @@ function Kalkulator() {
                 </option>
                 <option data-testid="select-option" value="K/3">
                   K/3
+                </option>
+                <option data-testid="select-option" value="K/I/0">
+                  K/I/0
+                </option>
+                <option data-testid="select-option" value="K/I/1">
+                  K/I/1
+                </option>
+                <option data-testid="select-option" value="K/I/2">
+                  K/I/2
+                </option>
+                <option data-testid="select-option" value="K/I/3">
+                  K/I/3
                 </option>
               </select>
             </div>
