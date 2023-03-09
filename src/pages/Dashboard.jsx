@@ -20,7 +20,7 @@ export default function Dashboard() {
         </div>
       </div>
       <div>
-        <img src={Dev} className="mt-[45px]"/>
+        <img src={Dev} className="mx-auto max-w-500 mt-[45px]"/>
         </div>
       <Cards />
       <Footer />
