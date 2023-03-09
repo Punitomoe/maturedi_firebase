@@ -23,7 +23,8 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-        
+
+        {/* PAJAK KARYAWAN */}
         <div className="w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300">
           <img className="w-[150px] mx-auto mt-[2rem]" src={avatar} alt="/" />
           <h2 className="text-[40px] font-bold text-center py-8 text-white cursor-default">
@@ -31,21 +32,21 @@ export default function Dashboard() {
           </h2>
           <form className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B]">
             <div className="flex flex-col text-gray-400 py-2">
-              <label>Username</label>
+              <label>Penghasilan dalam setahun :</label>
               <input
                 className="rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="text"
               />
             </div>
             <div className="flex flex-col text-gray-400 py-2">
-              <label>Password</label>
+              <label>Bonus THR dan sebagainya :</label>
               <input
                 className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="password"
               />
             </div>
             <div className="flex flex-col text-gray-400 py-2">
-              <label>Password</label>
+              <label>Status perkawinan / tanggungan :</label>
               <input
                 className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="password"
@@ -55,8 +56,15 @@ export default function Dashboard() {
               TOTAL
             </button>
           </form>
+          <div className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B] flex flex-col text-gray-400 py-2">
+          <label>Jumlah kisaran pajak yang harus dibayar :</label>
+            <div className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
+                Rp.
+            </div>
+          </div>
         </div>
        
+       {/* PAJAK UMKM */}
         <div className="w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-[#272728] shadow-xl flex flex-col p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300">
           <img className="w-[150px] mx-auto mt-[2rem]" src={store} alt="/" />
           <h2 className="text-[40px] font-bold text-center py-8 text-white cursor-default">
@@ -64,49 +72,40 @@ export default function Dashboard() {
           </h2>
           <form className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B]">
             <div className="flex flex-col text-gray-400 py-2">
-              <label>Username</label>
+              <label>Omzen dalam setahun :</label>
               <input
                 className="rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="text"
-              />
-            </div>
-            <div className="flex flex-col text-gray-400 py-2">
-              <label>Password</label>
-              <input
-                className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
-                type="password"
-              />
-            </div>
-            <div className="flex flex-col text-gray-400 py-2">
-              <label>Password</label>
-              <input
-                className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
-                type="password"
               />
             </div>
             <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
               TOTAL
             </button>
           </form>
+          <div className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B] flex flex-col text-gray-400 py-2">
+          <label>Jumlah kisaran pajak yang harus dibayar :</label>
+            <div className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
+                Rp.
+            </div>
+          </div>
         </div>
         
-        <div className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-[#272728] shadow-xl flex flex-col my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300">
-          <img
-            className="w-[150px] mx-auto mt-[2rem]"
-            src={motorbike}
-            alt="/"
-          />
+        {/* PAJAK KENDARAAN*/}
+        <div className="w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-[#272728] shadow-xl flex flex-col p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300">
+          <img className="w-[150px] mx-auto mt-[2rem]" src={motorbike} alt="/" />
           <h2 className="text-[40px] font-bold text-center py-8 text-white cursor-default">
             Pajak Kendaraan
           </h2>
-          <p className="w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] cursor-default">
-            Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal
-            yang dapat diketahui ...
-          </p>
-          <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
-            Kunjungi E-Samsat
-          </button>
+          <form className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B]">
+            <div className="flex flex-col text-gray-400 py-2">
+              <label>Pajak kendaraan cenderung memiliki nilai pasti yang tidak terpengaruh pada besaran pendapatan pengguna dan sudah ditentukan oleh pihak samsat.</label>
+            </div>
+            <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
+              TOTAL
+            </button>
+          </form>
         </div>
+
       </div>
       <Cards />
       <Footer />
