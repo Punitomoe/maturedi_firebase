@@ -9,7 +9,7 @@ import Register from "./pages/Register";
 import Kalkulator from "./pages/Kalkulator";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
-import Content from "./pages/Content";
+import Content from "./Contents/Content";
 
 export default function App() {
   return (
