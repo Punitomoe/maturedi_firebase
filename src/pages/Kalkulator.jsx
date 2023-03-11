@@ -214,7 +214,7 @@ function Kalkulator() {
           </form>
           <div className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B] flex flex-col text-gray-400 py-2">
             <label>Jumlah kisaran pajak yang harus dibayar :</label>
-            <div className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
+            <div className="shadow-lg p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
               Rp. {hasil}
             </div>
           </div>
@@ -244,7 +244,7 @@ function Kalkulator() {
           </form>
           <div className="max-w-[400px] w-full mx-auto rounded-lg p-8 px-8 bg-[#18181B] flex flex-col text-gray-400 py-2">
             <label>Jumlah kisaran pajak yang harus dibayar :</label>
-            <div className="p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
+            <div className="shadow-lg p-2 rounded-lg bg-gray-700 mt-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none">
               Rp. {omzetResult}
             </div>
           </div>
