@@ -91,11 +91,17 @@ function Kalkulator() {
             removeNonNumeric((total - 310000000) * 0.25 + 3000000 + 37500000)
           )
         );
+      } else if (total <= 5810000000) {
+        setHasil(
+          addCommas(
+            removeNonNumeric((total - 810000000) * 0.30 + 3000000 + 37500000 + 125000000)
+          )
+        );
       } else {
         setHasil(
           addCommas(
             removeNonNumeric(
-              (total - 810000000) * 0.3 + 3000000 + 37500000 + 125000000
+              (total - 5810000000) * 0.35 + 3000000 + 37500000 + 125000000 + 1500000000
             )
           )
         );

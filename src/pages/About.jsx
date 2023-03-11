@@ -41,8 +41,8 @@ export default function About() {
           <img src={ig} alt="/" className="w-[40px] h-auto mx-auto my-auto"/>
           <img src={linkdin} alt="/" className="w-[40px] h-auto mx-auto my-auto"/>
           <img src={email} alt="/" className="w-[40px] h-auto mx-auto my-auto"/>
-          <p className="my-auto text-white hover:text-[#00df9a] cursor-pointer">Follow Me in Instagram</p>
-          <p className="my-auto text-white hover:text-[#00df9a] cursor-pointer">Follow Me in Linkedin</p>
+          <p className="my-auto text-white hover:text-[#00df9a] cursor-pointer"><a href="https://www.instagram.com/moskujh_/?hl=id" target="_blank" rel="noreferrer">Follow Me in Instagram</a></p>
+          <p className="my-auto text-white hover:text-[#00df9a] cursor-pointer"><a href="https://www.linkedin.com/in/dimas-julio-cessar-b66424222" target="_blank" rel="noreferrer">Follow Me in Linkedin</a></p>
           <p className="my-auto text-white hover:text-[#00df9a] cursor-default">dimasjc08@gmail.com</p>
           </div>
         </div>
