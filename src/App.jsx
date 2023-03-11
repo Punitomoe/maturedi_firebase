@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Kalkulator from "./pages/Kalkulator";
+import Menu from "./pages/Menu";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Route path="/login" element={<Login />}/>
       <Route path="/register" element={<Register />}/>
       <Route path="/kalkulator" element={<Kalkulator />}/>
+      <Route path="/menu" element={<Menu />}/>
     </Routes>
   );
 }
