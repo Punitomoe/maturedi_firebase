@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Kalkulator from "./pages/Kalkulator";
 import Menu from "./pages/Menu";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Route path="/register" element={<Register />}/>
       <Route path="/kalkulator" element={<Kalkulator />}/>
       <Route path="/menu" element={<Menu />}/>
+      <Route path="/about" element={<About />}/>
     </Routes>
   );
 }
