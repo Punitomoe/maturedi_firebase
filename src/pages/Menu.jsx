@@ -26,8 +26,8 @@ export default function Menu() {
       <div>
         <div className='flex md:flex-col flex-wrap mx-auto md:mx-10 mt-3'>
               <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
-                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default'>Asuransi</h2>
-
+                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto sm:mx-4'>Asuransi</h2>
+                <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
                   <img className='w-[50px] mx-auto mt-[1rem]' src={engineer} alt="/" />
                   <h2 className='text-[30px] font-bold text-center py-8 text-[#F4F4F5] cursor-default'>BPJS Ketenagakerjaan</h2>
@@ -41,11 +41,12 @@ export default function Menu() {
                   <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] mb-[25px] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
                   <button className='bg-[#00df9a] w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3'>Baca Selengkapnya</button>
                 </div>
+                </div>
             </div>
 
             <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
-                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default'>Legal Dokumen</h2>
-
+                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto'>Legal Dokumen</h2>
+              <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
                   <img className='w-[50px] mx-auto mt-[1rem]' src={ktp} alt="/" />
                   <h2 className='text-[30px] font-bold text-center py-8 text-[#F4F4F5] cursor-default'>Kartu Tanda Pengenal</h2>
@@ -66,11 +67,12 @@ export default function Menu() {
                   <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] mb-[25px] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
                   <button className='bg-[#00df9a] w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3'>Baca Selengkapnya</button>
                 </div>
+                </div>
             </div>
 
             <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
-                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default'>Pajak</h2>
-
+                <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto'>Perpajakan</h2>
+                <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
                   <img className='w-[50px] mx-auto mt-[1rem]' src={avatar} alt="/" />
                   <h2 className='text-[30px] font-bold text-center py-8 text-[#F4F4F5] cursor-default'>Pajak Penghasilan</h2>
@@ -90,6 +92,7 @@ export default function Menu() {
                   <h2 className='text-[30px] font-bold text-center py-8 text-[#F4F4F5] cursor-default'>Pajak Kendaraan</h2>
                   <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] mb-[25px] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
                   <button className='bg-[#00df9a] w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3'>Baca Selengkapnya</button>
+                </div>
                 </div>
             </div>
 
