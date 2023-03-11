@@ -26,30 +26,30 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400'>About Us</h6>
         <ul>
-            <li className='py-3 text-sm'>Me</li>
+            <li className='py-3 text-sm hover:text-[#00df9a] cursor-pointer'>Me</li>
         </ul>
     </div>
     <div>
         <h6 className='font-medium text-gray-400'>Asuransi</h6>
         <ul>
-            <li className='py-3  text-sm'>Ketenagakerjaan</li>
-            <li className='py-3  text-sm'>Kesehatan</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>Ketenagakerjaan</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>Kesehatan</li>
         </ul>
     </div>
     <div>
         <h6 className='font-medium text-gray-400'>Legal Dokumen</h6>
         <ul>
-            <li className='py-3  text-sm'>KTP</li>
-            <li className='py-3  text-sm'>SIM</li>
-            <li className='py-3  text-sm'>SKCK</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>KTP</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>SIM</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>SKCK</li>
         </ul>
     </div>
     <div>
         <h6 className='font-medium text-gray-400'>Perpajakan</h6>
         <ul>
-            <li className='py-3  text-sm'>Karyawan</li>
-            <li className='py-3  text-sm'>Kendaraan</li>
-            <li className='py-3  text-sm'>UMKM</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>Karyawan</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>Kendaraan</li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'>UMKM</li>
         </ul>
     </div>
       </div>

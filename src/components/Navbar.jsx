@@ -14,10 +14,10 @@ const Navbar = () => {
     <div className='bg-[#252529] flex justify-between items-center h-[50px] sm:h-[70px] max-w-[1240px] mx-auto px-4 text-white font-semibold rounded-full'>
       <img src={logo} className='w-auto h-[32px] ml-[20px] -mt-[5px] cursor-pointer' />
       <ul className='hidden md:flex cursor-pointer'>
-        <li className='p-4 mx-4'>Beranda</li>
-        <li className='p-4 mx-4'>Menu</li>
-        <li className='p-4 mx-4'>Kalkulator</li>
-        <li className='p-4 mx-4'>Login</li>
+        <li className='p-4 mx-4 text-white hover:text-[#00df9a]'>Beranda</li>
+        <li className='p-4 mx-4 text-white hover:text-[#00df9a]'>Menu</li>
+        <li className='p-4 mx-4 text-white hover:text-[#00df9a]'>Kalkulator</li>
+        <li className='p-4 mx-4 text-white hover:text-[#00df9a]'>Login</li>
         <img src={account} className='w-[45px] h-[45px] rounded-full m-2'/>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
