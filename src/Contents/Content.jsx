@@ -10,7 +10,7 @@ export default function Content() {
       <div className="w-full mt-[20px] inline-block">
         <Navbar />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1240px] mx-4 md:mx-auto mt-[50px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1700px] mx-4 md:mx-auto mt-[50px]">
         <div>
           <h1 className="text-white text-[55px] font-bold">
             Pajak Penghasilan (PPh)
@@ -171,7 +171,7 @@ export default function Content() {
         </div>
         <div className="my-5">
           <iframe
-            className="mx-auto md:ml-[40px] max-w-[500px] w-auto md:w-[500px] h-auto md:h-[300px] static md:fixed"
+            className="mx-auto md:ml-[40px] max-w-[500px] w-auto md:w-[500px] h-auto md:h-[300px] static"
             src="https://www.youtube.com/embed/7Jx9fV6wVjg"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

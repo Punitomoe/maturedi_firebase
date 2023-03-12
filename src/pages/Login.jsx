@@ -15,7 +15,7 @@ export default function Login() {
           <img className="w-full h-full object-cover" src={Background} alt="" />
         </div>
 
-        <div className="gflex flex-col justify-center pt-[100px] pb-[150px]">
+        <div className="flex flex-col justify-center pt-[100px] pb-[150px]">
           <form className="max-w-[400px] w-full mx-auto rounded-lg bg-[#18181B] p-8 px-8">
             <h2 className="text-4xl dark:text-white font-bold text-center">
               SIGN IN
