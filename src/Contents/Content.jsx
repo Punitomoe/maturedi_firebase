@@ -1,4 +1,5 @@
 import React from "react";
+import account from '../assets/Icon/user.png'
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ptkp from "../assets/Design/PTKP.jpeg";
@@ -176,6 +177,15 @@ export default function Content() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
+          <div flex flex-row float-right>
+            <div><img src={account} className='w-[45px] h-[45px] rounded-full m-2'/></div>
+            <div><textarea 
+            name="comment" 
+            placeholder="Tambahkan komentar Anda..." 
+            className='max-w-[600px] h-auto w-full sm:items-center sm:content-start sm:justify-item-center border-4 border-[#272728] shadow-xl p-4 md:my-0 my-8 rounded-lg scale-100 hover:scale-110 duration-300'></textarea></div>
+            <div><button 
+            className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Post</button></div>
+          </div>
         </div>
       </div>
       <Footer />
