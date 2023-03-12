@@ -25,7 +25,7 @@ export default function Menu() {
       </div>
       <div>
         <div className='flex md:flex-col flex-wrap mx-auto md:mx-10 mt-3'>
-              <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
+              <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] duration-300'>
                 <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto sm:mx-4'>Asuransi</h2>
                 <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] scale-100 hover:scale-110 duration-300'>
@@ -44,7 +44,7 @@ export default function Menu() {
                 </div>
             </div>
 
-            <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
+            <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] duration-300'>
                 <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto'>Legal Dokumen</h2>
               <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] scale-100 hover:scale-110 duration-300'>
@@ -70,7 +70,7 @@ export default function Menu() {
                 </div>
             </div>
 
-            <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-105 duration-300'>
+            <div className=' w-full mx-auto bg-none sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-row flex-wrap p-4 my-4 rounded-tl-[40px] rounded-br-[40px] duration-300'>
                 <h2 className='w-[200px] text-[40px] font-bold text-center py-8 text-white cursor-default mx-auto'>Perpajakan</h2>
                 <div className="flex flex-wrap">
                 <div className='max-w-[550px] mx-5 h-[400px] w-full bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] scale-100 hover:scale-110 duration-300'>
