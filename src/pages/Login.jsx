@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Background from "../assets/Design/login.jpg";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -47,9 +48,10 @@ export default function Login() {
             <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
               SIGN IN
             </button>
+            <Link to="/register" >
             <button className="w-full my-2 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
               REGISTER
-            </button>
+            </button></Link>
           </form>
         </div>
       </div>

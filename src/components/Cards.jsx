@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Asuransi from '../assets/Icon/asuransi.png'
 import Legal from '../assets/Icon/file.png'
 import Pajak from '../assets/Icon/tax.png'
@@ -15,19 +16,19 @@ const Cards = () => {
               <img className='w-[150px] mx-auto mt-[2rem]' src={Asuransi} alt="/" />
               <h2 className='text-[40px] font-bold text-center py-8 text-white cursor-default'>Asuransi</h2>
               <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
-              <button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button>
+              <Link to='/menu'><button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button></Link>
           </div>
           <div className='max-w-[400px] w-full mx-auto bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-3 stroke-[#272728] shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-tl-[40px] rounded-br-[40px] hover:scale-110 duration-300'>
               <img className='w-[150px] mx-auto mt-[2rem]' src={Legal} alt="/" />
               <h2 className='text-[40px] font-bold text-center py-8 text-white cursor-default'>Legal Dokumen</h2>
               <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] mb-[25px] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
-              <button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button>
+              <Link to='/menu'><button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button></Link>
           </div>
           <div className='max-w-[400px] w-full mx-auto bg-[#18181B] sm:items-center sm:content-start sm:justify-item-center stroke-[#272728] shadow-xl flex flex-col p-4 my-4 rounded-tl-[40px] rounded-br-[40px] hover:scale-110 duration-300'>
               <img className='w-[150px] mx-auto mt-[2rem]' src={Pajak} alt="/" />
               <h2 className='text-[40px] font-bold text-center py-8 text-white cursor-default'>Perpajakan</h2>
               <p className='w-[280px] md:w-auto h-[100px] md:h-auto md:ml-2 text-left text-lg text-[#9999A1] cursor-default'>Informasi seputar asuransi ketenagakerjaan dan kesehatan, banyak hal yang dapat diketahui ...</p>
-              <button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button>
+              <Link to='/menu'><button className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Baca Selengkapnya</button></Link>
           </div>
       </div>
     </div>
