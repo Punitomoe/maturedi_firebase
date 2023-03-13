@@ -6,7 +6,15 @@ import Register from "./pages/Register";
 import Kalkulator from "./pages/Kalkulator";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
-import Content from "./Contents/Content";
+
+import Ketenagakerjaan from "./Contents/Ketenagakerjaan";
+import Kesehatan from "./Contents/Kesehatan";
+import Ktp from "./Contents/Ktp";
+import Sim from "./Contents/Sim";
+import Skck from "./Contents/Skck";
+import Penghasilan from "./Contents/Penghasilan";
+import Umkm from "./Contents/Umkm";
+import Kendaraan from "./Contents/Kendaraan";
 
 export default function App() {
   return (
@@ -18,7 +26,15 @@ export default function App() {
       <Route path="/kalkulator" element={<Kalkulator />}/>
       <Route path="/menu" element={<Menu />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/content" element={<Content />}/>
+
+      <Route path="/ketenagakerjaan" element={<Ketenagakerjaan />}/>
+      <Route path="/Kesehatan" element={<Kesehatan />}/>
+      <Route path="/ktp" element={<Ktp />}/>
+      <Route path="/sim" element={<Sim />}/>
+      <Route path="/skck" element={<Skck />}/>
+      <Route path="/penghasilan" element={<Penghasilan />}/>
+      <Route path="/umkm" element={<Umkm />}/>
+      <Route path="/kendaraan" element={<Kendaraan />}/>
     </Routes>
   );
 }

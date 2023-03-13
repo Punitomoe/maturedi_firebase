@@ -47,8 +47,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/ketenagakerjaan">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/ketenagakerjaan" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button >
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -67,8 +67,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/kesehatan">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/kesehatan" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button >
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -90,8 +90,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/ktp">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/ktp" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button>
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -110,8 +110,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/sim">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/sim" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button>
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -130,8 +130,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/skck">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/skck" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button>
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -154,11 +154,12 @@ export default function Menu() {
                   Pajak Penghasilan
                 </h2>
                 <p className="w-[280px] md:w-auto h-[100px] md:h-auto mx-auto text-left text-lg text-[#9999A1] mb-[25px] cursor-default">
-                  Informasi seputar asuransi ketenagakerjaan dan kesehatan,
-                  banyak hal yang dapat diketahui ...
+                Pajak Penghasilan (PPh) adalah pajak yang dikenakan atas penghasilan
+                yang diperoleh oleh Wajib Pajak (WP) dari berbagai jenis sumber
+                penghasilan ...
                 </p>
-                <Link to="/penghasilan">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/penghasilan" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button>
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -177,8 +178,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/kendaraan">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/kendaraan" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button >
                     Baca Selengkapnya
                   </button>
                 </Link>
@@ -197,8 +198,8 @@ export default function Menu() {
                   Informasi seputar asuransi ketenagakerjaan dan kesehatan,
                   banyak hal yang dapat diketahui ...
                 </p>
-                <Link to="/umkm">
-                  <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                <Link to="/umkm" className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+                  <button >
                     Baca Selengkapnya
                   </button>
                 </Link>
