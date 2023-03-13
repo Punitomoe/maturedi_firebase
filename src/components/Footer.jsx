@@ -44,7 +44,7 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400'>Perpajakan</h6>
         <ul>
-            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'><Link to="/karyawan">Karyawan</Link></li>
+            <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'><Link to="/penghasilan">Penghasilan</Link></li>
             <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'><Link to="/kendaraan">Kendaraan</Link></li>
             <li className='py-3  text-sm hover:text-[#00df9a] cursor-pointer'><Link to="/umkm">UMKM</Link></li>
         </ul>
