@@ -170,7 +170,7 @@ export default function Content() {
             <br />
           </p>
         </div>
-        <div className="my-5">
+        <div className="my-5 mx-5">
           <iframe
             className="mx-auto md:ml-[40px] max-w-[500px] w-auto md:w-[500px] h-auto md:h-[300px] static"
             src="https://www.youtube.com/embed/7Jx9fV6wVjg"
@@ -184,7 +184,7 @@ export default function Content() {
             placeholder="Tambahkan komentar Anda..." 
             className='max-w-[600px] h-auto w-full sm:items-center sm:content-start sm:justify-item-center border-4 border-[#272728] shadow-xl p-4 md:my-0 my-8 rounded-lg scale-100 hover:scale-110 duration-300'></textarea></div>
             <div><button 
-            className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white'>Post</button></div>
+            className='shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-2 hover:text-white'>Post</button></div>
           </div>
         </div>
       </div>

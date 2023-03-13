@@ -111,7 +111,7 @@ export default function Umkm() {
         <div className="my-5 mx-5">
           <iframe
             className="mx-auto md:ml-[40px] max-w-[500px] w-auto md:w-[500px] h-auto md:h-[300px] static"
-            src="https://www.youtube.com/embed/7Jx9fV6wVjg"
+            src="https://www.youtube.com/embed/uwCyDDJ3UDA"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -130,7 +130,7 @@ export default function Umkm() {
               ></textarea>
             </div>
             <div>
-              <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-3 hover:text-white">
+              <button className="shadow-lg bg-[#00df9a] hover:bg-[#3cc602] ease-in-out duration-500 w-auto rounded-md text-[18px] font-semibold my-6 mx-auto px-6 py-2 hover:text-white">
                 Post
               </button>
             </div>

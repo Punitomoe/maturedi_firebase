@@ -89,14 +89,14 @@ const Footer = () => {
                 Penghasilan
               </li>
             </Link>
-            <Link to="/kendaraan">
-              <li className="py-3  text-sm hover:text-[#00df9a] cursor-pointer">
-                Kendaraan
-              </li>
-            </Link>
             <Link to="/umkm">
               <li className="py-3  text-sm hover:text-[#00df9a] cursor-pointer">
                 UMKM
+              </li>
+            </Link>
+            <Link to="/kendaraan">
+              <li className="py-3  text-sm hover:text-[#00df9a] cursor-pointer">
+                Kendaraan
               </li>
             </Link>
           </ul>

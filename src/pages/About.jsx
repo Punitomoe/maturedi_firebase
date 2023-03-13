@@ -36,7 +36,7 @@ export default function About() {
           </p>
         </div>
         <div className="my-5">
-          <img src={photo} alt="/" className="mx-auto max-w-[389px] h-auto origin-center -rotate-6 hover:rotate-0 ease-in-out duration-300 scale-100 hover:scale-105" />
+          <img src={photo} alt="/" className="mx-auto max-w-[389px] h-auto origin-center -rotate-6 hover:-rotate-0 ease-in-out duration-300 scale-100 hover:scale-105" />
           <div className="grid grid-rows-3 grid-flow-col gap-3 text-white mt-10">
           <img src={ig} alt="/" className="w-[40px] h-auto mx-auto my-auto"/>
           <img src={linkdin} alt="/" className="w-[40px] h-auto mx-auto my-auto"/>
